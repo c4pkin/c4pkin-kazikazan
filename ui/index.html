@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>c4pkin Developments</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" id="scratch-card">
+        <div class="header">
+            <h1>Kazı Kazan</h1>
+            <p class="subtitle">Şansını Dene!</p>
+        </div>
+        
+        <div class="game-info">
+            <div class="info-box">
+                <span class="label">Ödülün:</span>
+                <span id="prize-amount">Kazı ve Gör!</span>
+            </div>
+        </div>
+        
+        <div class="scratch-area">
+            <div class="card">
+                <div id="scratch-container">
+                    <canvas id="scratch-card-canvas"></canvas>
+                </div>
+                <div id="prize-layer">
+                    <div id="prize-text"></div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="buttons">
+            <button id="close-btn">Kapat</button>
+        </div>
+        
+        <div class="instructions">
+            <p>Kartı kazmak için fare ile sürükleyin. Aynı 3 emoji yan yana, alt alta veya çapraz olursa ödül kazanırsınız!</p>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
